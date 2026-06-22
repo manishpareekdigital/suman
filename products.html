@@ -1,0 +1,313 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Collections | Suman Poly Silk Pvt. Ltd. | Saree Manufacturing Catalog</title>
+  <meta name="description" content="Browse Suman Poly Silk's complete product lines. Filter through designer collection, wedding ensembles, heritage silk sarees, and modern printed sarees.">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Page Loader -->
+  <div class="page-loader">
+    <div class="loader-content">
+      <div class="loader-logo">SUMAN</div>
+      <div class="loader-bar">
+        <div class="loader-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Navbar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">S</div>
+        <div class="logo-text">
+          <span class="logo-name">SUMAN</span>
+          <span class="logo-tagline">Poly Silk</span>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <div class="has-mega-menu">
+          <a href="products.html" class="nav-link active">Products <i class="fas fa-chevron-down" style="font-size: 10px; margin-left: 2px;"></i></a>
+          <div class="mega-menu">
+            <div class="mega-menu-grid">
+              <a href="designer-sarees.html" class="mega-menu-item">
+                <div class="mega-icon">âœ¨</div>
+                <div class="mega-text">
+                  <h4>Designer Sarees</h4>
+                  <p>Exclusive boutique couture designs</p>
+                </div>
+              </a>
+              <a href="wedding-sarees.html" class="mega-menu-item">
+                <div class="mega-icon">ðŸ‘‘</div>
+                <div class="mega-text">
+                  <h4>Wedding Collections</h4>
+                  <p>Premium heavy bridal wear</p>
+                </div>
+              </a>
+              <a href="silk-sarees.html" class="mega-menu-item">
+                <div class="mega-icon">ðŸŽ—ï¸</div>
+                <div class="mega-text">
+                  <h4>Pure Silk Sarees</h4>
+                  <p>Traditional banarasi & art silks</p>
+                </div>
+              </a>
+              <a href="printed-sarees.html" class="mega-menu-item">
+                <div class="mega-icon">ðŸŒ¸</div>
+                <div class="mega-text">
+                  <h4>Printed Sarees</h4>
+                  <p>Modern georgette & chiffon prints</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="contact.html#inquiry" class="btn btn-primary btn-sm">Get Quote</a>
+      </div>
+
+      <div class="mobile-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-menu-overlay"></div>
+  <div class="mobile-menu">
+    <a href="index.html" class="mobile-nav-link">Home</a>
+    <a href="about.html" class="mobile-nav-link">About Us</a>
+    <span class="mobile-nav-link" style="color: var(--gold); pointer-events: none;">Collections</span>
+    <div class="mobile-sub-menu">
+      <a href="designer-sarees.html" class="mobile-sub-link">Designer Collection</a>
+      <a href="wedding-sarees.html" class="mobile-sub-link">Wedding Sarees</a>
+      <a href="silk-sarees.html" class="mobile-sub-link">Silk Sarees</a>
+      <a href="printed-sarees.html" class="mobile-sub-link">Printed Sarees</a>
+    </div>
+    <a href="gallery.html" class="mobile-nav-link">Gallery</a>
+    <a href="blog.html" class="mobile-nav-link">Blog</a>
+    <a href="contact.html" class="mobile-nav-link">Contact</a>
+    <div class="mobile-cta">
+      <a href="contact.html#inquiry" class="btn btn-primary">Request Quote</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1920&q=80" alt="Saree fabric fold details" class="hero-bg">
+      <div class="hero-content">
+        <h1 class="hero-title" data-aos="fade-up">Our Premium Catalog</h1>
+        <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">Exquisite designs built for business scale</p>
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="separator">/</span>
+          <span class="current">Products</span>
+        </div>
+      </div>
+      <div class="gold-pattern"></div>
+    </section>
+
+    <!-- Products Showcase & Filter Grid -->
+    <section class="section">
+      <div class="container">
+        <!-- Filter Tabs -->
+        <div class="filter-buttons" data-aos="fade-up">
+          <button class="filter-btn active" data-filter="all">All Collections</button>
+          <button class="filter-btn" data-filter="designer">Designer Collection</button>
+          <button class="filter-btn" data-filter="wedding">Wedding / Bridal</button>
+          <button class="filter-btn" data-filter="silk">Pure Silk</button>
+          <button class="filter-btn" data-filter="printed">Contemporary Printed</button>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="gallery-grid" style="grid-template-columns: repeat(3, 1fr); display: grid; gap: var(--space-xl);" id="products-catalog-grid">
+          
+          <!-- Designer Saree -->
+          <div class="product-card gallery-item" data-category="designer" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-image">
+              <img src="img/36046_page-0001.jpg" alt="Designer Saree Item">
+              <div class="card-badge">Bestseller</div>
+            </div>
+            <div class="card-body">
+              <span class="card-category">Designer Collection</span>
+              <h3 class="card-title">Zari Border Silk Georgette</h3>
+              <p class="card-desc">Exclusive designer wear tailored with heavy borders and custom embroidery.</p>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-top:var(--space-md);">
+                <span class="card-price">Price on Request</span>
+                <a href="designer-sarees.html" class="btn btn-outline btn-sm">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Wedding Saree -->
+          <div class="product-card gallery-item" data-category="wedding" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-image">
+              <img src="img/36046_page-0002.jpg" alt="Wedding Bridal Saree">
+              <div class="card-badge">Luxury</div>
+            </div>
+            <div class="card-body">
+              <span class="card-category">Wedding Collection</span>
+              <h3 class="card-title">Heritage Velvet Bridal Saree</h3>
+              <p class="card-desc">Premium bridal saree displaying intricate hand-sewn metallic gold thread patterns.</p>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-top:var(--space-md);">
+                <span class="card-price">Price on Request</span>
+                <a href="wedding-sarees.html" class="btn btn-outline btn-sm">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Silk Saree -->
+          <div class="product-card gallery-item" data-category="silk" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-image">
+              <img src="img/36046_page-0003.jpg" alt="Silk Saree Item">
+              <div class="card-badge">100% Pure</div>
+            </div>
+            <div class="card-body">
+              <span class="card-category">Pure Silk</span>
+              <h3 class="card-title">Varanasi Brocade Art Silk</h3>
+              <p class="card-desc">Finely detailed heritage silk saree containing royal motif overlays.</p>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-top:var(--space-md);">
+                <span class="card-price">Price on Request</span>
+                <a href="silk-sarees.html" class="btn btn-outline btn-sm">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Printed Saree -->
+          <div class="product-card gallery-item" data-category="printed" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-image">
+              <img src="img/36046_page-0004.jpg" alt="Printed Chiffon Saree">
+              <div class="card-badge">Daily Classic</div>
+            </div>
+            <div class="card-body">
+              <span class="card-category">Contemporary Printed</span>
+              <h3 class="card-title">Botanical Digital Printed Crepe</h3>
+              <p class="card-desc">Vibrant modern digital prints made on ultra-breathable georgette fabrics.</p>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-top:var(--space-md);">
+                <span class="card-price">Price on Request</span>
+                <a href="printed-sarees.html" class="btn btn-outline btn-sm">View Details</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Bulk Order Section -->
+    <section class="section section-cream">
+      <div class="container text-center">
+        <h2 style="font-family: var(--font-heading); color: var(--maroon-deep); margin-bottom: var(--space-md); font-size: var(--text-3xl);">B2B Bulk Wholesale Procurement</h2>
+        <p style="color: var(--gray); max-width: 650px; margin: 0 auto var(--space-xl);">We offer custom dye configurations, white-label packaging, and door-to-door sea freight forwarding for corporate and bulk franchise buyers.</p>
+        <a href="contact.html#inquiry" class="btn btn-maroon">Submit Bulk Wholesale Inquiry</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-main">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="footer-logo-icon">S</div>
+            <span class="footer-logo-name">SUMAN POLY SILK</span>
+          </div>
+          <p>Global manufacturers and B2B exporters of exquisite silk and designer sarees. Weaving luxury quality and trust since 1998.</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Collections</h4>
+          <ul>
+            <li><a href="designer-sarees.html">Designer Sarees</a></li>
+            <li><a href="wedding-sarees.html">Wedding Collections</a></li>
+            <li><a href="silk-sarees.html">Pure Silk Sarees</a></li>
+            <li><a href="printed-sarees.html">Printed Sarees</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="blog.html">Blog & Updates</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Factory Info</h4>
+          <div class="footer-contact-item">
+            <i class="fas fa-map-marker-alt contact-icon"></i>
+            <p>Plot No. 124-128, New Textile Market, Ring Road, Surat - 395002, Gujarat, India</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-phone-alt contact-icon"></i>
+            <p><a href="tel:+912612345678">+91 261 234 5678</a></p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-envelope contact-icon"></i>
+            <p><a href="mailto:info@sumanpolysilk.com">info@sumanpolysilk.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container" style="display: flex; flex-direction: column; align-items: center; gap: var(--space-sm); width: 100%;">
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; flex-wrap: wrap; gap: var(--space-md);">
+          <p>&copy; 2026 Suman Poly Silk Pvt. Ltd. All Rights Reserved. | Designed & Developed by <a href="https://manishpareekdigital.github.io/-manishdigitalpro/" target="_blank" style="color: var(--gold); font-weight: 600; transition: color var(--transition-base);" onmouseover="this.style.color='var(--gold-light)'" onmouseout="this.style.color='var(--gold)'">Manish Digital</a></p>
+          <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+          </div>
+        </div>
+        <div style="border-top: 1px solid rgba(201, 168, 76, 0.15); width: 100%; padding-top: var(--space-sm); margin-top: var(--space-xs); text-align: center; font-size: var(--text-xs); color: rgba(255,255,255,0.5);">
+          <span>Need a Professional Website for Your Business? <a href="https://wa.me/919672930611?text=Hello%20Manish%20Digital,%20I%20am%20interested%20in%20a%20professional%20website%20for%20my%20business." target="_blank" style="color: var(--gold-light); font-weight: 500; transition: color var(--transition-base);" onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='var(--gold-light)'">Contact Manish Digital</a> (WhatsApp: +91 9672930611)</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp & Back to top -->
+  <div class="whatsapp-float">
+    <div class="whatsapp-tooltip">Chat with Sales Representative</div>
+    <div class="whatsapp-pulse"></div>
+    <a href="https://wa.me/919999999999?text=Hello%20Suman%20Poly%20Silk,%20I%20am%20interested%20in%20a%20wholesale%20partnership." target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <div class="back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>

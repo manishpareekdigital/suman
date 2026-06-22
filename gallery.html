@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Suman Poly Silk Pvt. Ltd. | Factory & Product Showroom</title>
+  <meta name="description" content="Explore Suman Poly Silk's luxury showroom, digital dye factory floors, and highlight catalog products through our interactive lightbox photo gallery.">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Page Loader -->
+  <div class="page-loader">
+    <div class="loader-content">
+      <div class="loader-logo">SUMAN</div>
+      <div class="loader-bar">
+        <div class="loader-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Navbar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">S</div>
+        <div class="logo-text">
+          <span class="logo-name">SUMAN</span>
+          <span class="logo-tagline">Poly Silk</span>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <div class="has-mega-menu">
+          <a href="products.html" class="nav-link">Products <i class="fas fa-chevron-down" style="font-size: 10px; margin-left: 2px;"></i></a>
+          <div class="mega-menu">
+            <div class="mega-menu-grid">
+              <a href="designer-sarees.html" class="mega-menu-item">
+                <div class="mega-icon">âœ¨</div>
+                <div class="mega-text">
+                  <h4>Designer Sarees</h4>
+                  <p>Exclusive boutique couture designs</p>
+                </div>
+              </a>
+              <a href="wedding-sarees.html" class="mega-menu-item">
+                <div class="mega-icon">ðŸ‘‘</div>
+                <div class="mega-text">
+                  <h4>Wedding Collections</h4>
+                  <p>Premium heavy bridal wear</p>
+                </div>
+              </a>
+              <a href="silk-sarees.html" class="mega-menu-item">
+                <div class="mega-icon">ðŸŽ—ï¸</div>
+                <div class="mega-text">
+                  <h4>Pure Silk Sarees</h4>
+                  <p>Traditional banarasi & art silks</p>
+                </div>
+              </a>
+              <a href="printed-sarees.html" class="mega-menu-item">
+                <div class="mega-icon">ðŸŒ¸</div>
+                <div class="mega-text">
+                  <h4>Printed Sarees</h4>
+                  <p>Modern georgette & chiffon prints</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="gallery.html" class="nav-link active">Gallery</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="contact.html#inquiry" class="btn btn-primary btn-sm">Get Quote</a>
+      </div>
+
+      <div class="mobile-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-menu-overlay"></div>
+  <div class="mobile-menu">
+    <a href="index.html" class="mobile-nav-link">Home</a>
+    <a href="about.html" class="mobile-nav-link">About Us</a>
+    <span class="mobile-nav-link" style="color: var(--gold); pointer-events: none;">Collections</span>
+    <div class="mobile-sub-menu">
+      <a href="designer-sarees.html" class="mobile-sub-link">Designer Collection</a>
+      <a href="wedding-sarees.html" class="mobile-sub-link">Wedding Sarees</a>
+      <a href="silk-sarees.html" class="mobile-sub-link">Silk Sarees</a>
+      <a href="printed-sarees.html" class="mobile-sub-link">Printed Sarees</a>
+    </div>
+    <a href="gallery.html" class="mobile-nav-link active">Gallery</a>
+    <a href="blog.html" class="mobile-nav-link">Blog</a>
+    <a href="contact.html" class="mobile-nav-link">Contact</a>
+    <div class="mobile-cta">
+      <a href="contact.html#inquiry" class="btn btn-primary">Request Quote</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <img src="https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?auto=format&fit=crop&w=1920&q=80" alt="Saree showroom" class="hero-bg">
+      <div class="hero-content">
+        <h1 class="hero-title" data-aos="fade-up">Media Gallery</h1>
+        <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">Inside Suman Poly Silk</p>
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="separator">/</span>
+          <span class="current">Gallery</span>
+        </div>
+      </div>
+      <div class="gold-pattern"></div>
+    </section>
+
+    <!-- Filters & Masonry -->
+    <section class="section">
+      <div class="container">
+        
+        <!-- Gallery Filter Tabs -->
+        <div class="filter-buttons" data-aos="fade-up">
+          <button class="filter-btn active" data-filter="all">All Media</button>
+          <button class="filter-btn" data-filter="factory">Factory Floor</button>
+          <button class="filter-btn" data-filter="showroom">Showroom View</button>
+          <button class="filter-btn" data-filter="products">Featured Products</button>
+        </div>
+
+        <!-- Masonry Grid -->
+        <div class="gallery-grid" data-aos="fade-up" data-aos-delay="100">
+          
+          <!-- Item 1 -->
+          <div class="gallery-item featured" data-category="factory">
+            <img src="img/36046_page-0005.jpg" alt="Weaving looms machinery floor">
+            <div class="gallery-overlay">
+              <span class="gallery-label">High-Speed Jacquard Loom Systems</span>
+              <div class="gallery-icon"><i class="fas fa-search-plus"></i></div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="gallery-item" data-category="products">
+            <img src="img/36046_page-0010.jpg" alt="Red Gold Border Saree">
+            <div class="gallery-overlay">
+              <span class="gallery-label">Premium Red Gold Border Saree Detail</span>
+              <div class="gallery-icon"><i class="fas fa-search-plus"></i></div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="gallery-item" data-category="showroom">
+            <img src="img/36046_page-0006.jpg" alt="Surat Corporate Showroom Display">
+            <div class="gallery-overlay">
+              <span class="gallery-label">Surat Corporate Showroom Display</span>
+              <div class="gallery-icon"><i class="fas fa-search-plus"></i></div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="gallery-item" data-category="factory">
+            <img src="img/36046_page-0007.jpg" alt="Yarn spool preparation">
+            <div class="gallery-overlay">
+              <span class="gallery-label">Yarn spool preparation line</span>
+              <div class="gallery-icon"><i class="fas fa-search-plus"></i></div>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="gallery-item" data-category="showroom">
+            <img src="img/36046_page-0008.jpg" alt="Client fitting rooms">
+            <div class="gallery-overlay">
+              <span class="gallery-label">Client fitting rooms & samples</span>
+              <div class="gallery-icon"><i class="fas fa-search-plus"></i></div>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="gallery-item" data-category="products">
+            <img src="img/36046_page-0011.jpg" alt="Amber Silk Weave">
+            <div class="gallery-overlay">
+              <span class="gallery-label">Amber Silk Weave Close Up</span>
+              <div class="gallery-icon"><i class="fas fa-search-plus"></i></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox">
+      <div class="lightbox-close">&times;</div>
+      <div class="lightbox-nav lightbox-prev">&#10094;</div>
+      <img src="" alt="Zoomed view" class="lightbox-image">
+      <div class="lightbox-nav lightbox-next">&#10095;</div>
+      <div class="lightbox-caption"></div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-main">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="footer-logo-icon">S</div>
+            <span class="footer-logo-name">SUMAN POLY SILK</span>
+          </div>
+          <p>Global manufacturers and B2B exporters of exquisite silk and designer sarees. Weaving luxury quality and trust since 1998.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Collections</h4>
+          <ul>
+            <li><a href="designer-sarees.html">Designer Sarees</a></li>
+            <li><a href="wedding-sarees.html">Wedding Collections</a></li>
+            <li><a href="silk-sarees.html">Pure Silk Sarees</a></li>
+            <li><a href="printed-sarees.html">Printed Sarees</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="blog.html">Blog & Updates</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Factory Info</h4>
+          <p style="color: rgba(255,255,255,0.6); font-size: var(--text-sm);">Plot No. 124-128, New Textile Market, Ring Road, Surat - 395002, Gujarat, India</p>
+        </div>
+      </div>
+    <div class="footer-bottom">
+      <div class="container" style="display: flex; flex-direction: column; align-items: center; gap: var(--space-sm); width: 100%;">
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; flex-wrap: wrap; gap: var(--space-md);">
+          <p>&copy; 2026 Suman Poly Silk Pvt. Ltd. All Rights Reserved. | Designed & Developed by <a href="https://manishpareekdigital.github.io/-manishdigitalpro/" target="_blank" style="color: var(--gold); font-weight: 600; transition: color var(--transition-base);" onmouseover="this.style.color='var(--gold-light)'" onmouseout="this.style.color='var(--gold)'">Manish Digital</a></p>
+          <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+          </div>
+        </div>
+        <div style="border-top: 1px solid rgba(201, 168, 76, 0.15); width: 100%; padding-top: var(--space-sm); margin-top: var(--space-xs); text-align: center; font-size: var(--text-xs); color: rgba(255,255,255,0.5);">
+          <span>Need a Professional Website for Your Business? <a href="https://wa.me/919672930611?text=Hello%20Manish%20Digital,%20I%20am%20interested%20in%20a%20professional%20website%20for%20my%20business." target="_blank" style="color: var(--gold-light); font-weight: 500; transition: color var(--transition-base);" onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='var(--gold-light)'">Contact Manish Digital</a> (WhatsApp: +91 9672930611)</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp & Back to top -->
+  <div class="whatsapp-float">
+    <a href="https://wa.me/919999999999" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+  <div class="back-to-top"><i class="fas fa-chevron-up"></i></div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>
